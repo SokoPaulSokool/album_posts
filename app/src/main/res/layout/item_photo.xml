@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parentView"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_baseline_photo_album"
+        android:scaleType="centerCrop"
+        android:id="@+id/photoIV"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/photoTitleTV"
+        android:gravity="center_horizontal"
+        android:text="lslsllslsl"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/photoIV"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

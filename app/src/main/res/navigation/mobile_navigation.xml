@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/postsFragment">
+
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.ug.ensibuuko.ui.posts.PostsFragment"
+        android:label="Posts"
+        tools:layout="@layout/posts_fragment" />
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.ug.ensibuuko.ui.albums.AlbumsFragment"
+        android:label="Albums"
+        tools:layout="@layout/albums_fragment" />
+    <fragment
+        android:id="@+id/todosFragment"
+        android:name="com.ug.ensibuuko.ui.todos.TodosFragment"
+        android:label="Todos"
+        tools:layout="@layout/todos_fragment" />
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.ug.ensibuuko.ui.posts.PostDetailsFragment"
+        android:label="Post Details"
+        tools:layout="@layout/fragment_post_details" />
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.ug.ensibuuko.ui.albums.PhotosFragment"
+        android:label="Photos"
+        tools:layout="@layout/fragment_photos" />
+</navigation>
